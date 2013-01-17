@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pro_Class.cs" />
+    <Compile Include="MCommend.cs" />
+    <Compile Include="MPro_Color.cs" />
+    <Compile Include="MPro_Class.cs" />
+    <Compile Include="MPro_Size.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MQst_Question.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

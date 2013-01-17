@@ -10,7 +10,7 @@ using System.Web.UI.HtmlControls;
 using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Xml.Linq;
-
+using Rose.Model.Hot;
 public partial class admin_index : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
@@ -19,5 +19,7 @@ public partial class admin_index : System.Web.UI.Page
         //{
         //    Response.Redirect("login.aspx");
         //}
+
+        
     }
 }
