@@ -1,0 +1,132 @@
+﻿@charset "utf-8";
+body {
+	margin: 0px;
+	text-align:center;
+	font-family:"宋体";
+	color:#3c3c3c;
+	 background:#FFFFFF;
+	 font-size:12px;
+}
+img{border:0;}
+ul,li{margin:0; padding:0; list-style:none;}
+.clr{clear:both;}
+.yc{display:block;text-indent:-9999px;overflow:hidden;}
+
+
+a:link {font-size:12px; color:#000;text-decoration: none; font-family: "宋体";}
+a:hover {font-size:12px; color:#000; text-decoration: none; font-family: "宋体";}
+a:visited {font-size:12px; color:#000; text-decoration: none; font-family: "宋体";}
+a:active {font-size:12px; color:#000; text-decoration: none; font-family: "宋体";}
+
+.link:link {font-size:12px; color:#474747;text-decoration: underline; font-family: "宋体";}
+.link:hover {font-size:12px; color:#474747; text-decoration: underline; font-family: "宋体";}
+.link:visited {font-size:12px; color:#474747; text-decoration:underline; font-family: "宋体";}
+.link:active {font-size:12px; color:#474747; text-decoration: underline; font-family: "宋体";}
+
+.link01:link {font-size:12px; color:#474747;text-decoration: none; font-family: "宋体";}
+.link01:hover {font-size:12px; color:#474747; text-decoration: none; font-family: "宋体";}
+.link01:visited {font-size:12px; color:#474747; text-decoration:none; font-family: "宋体";}
+.link01:active {font-size:12px; color:#474747; text-decoration:none; font-family: "宋体";}
+
+
+
+#wrap{width:1175px; margin:0 auto; background:url(../images/admin_bg01.jpg) top no-repeat;}
+#wrap01{width:1175px; margin:0 auto; background-color:#395E9F; }
+#login_bg{ width:410px; height:255px; padding:195px 0 0 170px; margin:306px auto 0 auto; background:url(../images/admin_login_bg.jpg) no-repeat;}
+.login{width:345px; margin:0 auto 0 0;}
+.login ul{ margin:0 ; padding:0; list-style:none;}
+.login li{ width:73px; height:30px; line-height:30px; font-size:16px; font-family:"微软雅黑"; color:#2a2a2a; font-weight:bold; float:left; margin-bottom:20px; text-align:left;}
+.login li.table{width:215px; height:26px; background: url(../images/admin_login_k.gif) no-repeat; padding:2px 5px; float:left;  margin-bottom:20px; text-align:left;}
+.login li.right{width:28px; height:27px; padding:1px 0 0 0;  margin-bottom:20px; float:right; text-align:left;}
+.login li.btn{width:304px; height:40px; text-align:right; margin-bottom:20px; float:left;}
+
+#top{position: relative;height:90px; width:1175px; margin:0 auto;}
+#header { top:0px;border: solid #395E9F; border-width: 5px 0; background: #C3D9FF; height: 90px; }
+/*#top .logo{width:75px; height:66px; float:left; text-align:left;}
+#top .tit{width:300px; font-size:25px; line-height:75px; font-family:"微软雅黑"; color:#ffffff; float:left; text-align:left; font-weight:bold;}
+#top .right{width:500px;   float:right; text-align:left;}
+#top .right .txt{width:500px; height:51px; line-height:51px; font-family:"宋体"; color:#ffffff; font-size:12px;   text-align:right;}*/
+#top #sitetitle { position: absolute; left: 20px; top: 15px; }
+	#top #sitetitle * { display: block; overflow: hidden; }
+		#sitetitle strong { color: #6774A8;  font-size: 16px;}
+		#sitetitle a { width: 210px; font-size: 16px; font-weight: bold; display: block; height: 20px; line-height: 20px; overflow: hidden; }
+
+	#top #topinfo { position: absolute; top: 5px; right: 0; width: 600px; height: 25px; overflow: hidden; background: #395E9F url(../images/topinfo.gif) no-repeat 100% -25px; padding-right: 33px; }
+		#top #topinfo, #topinfo a { color: #FFF; }
+		#top #topinfo em { font-size: 9px; font-family: Georgia, "Times New Roman", Times, serif; font-style: normal; color: #9EB6DF; }
+		#top #topinfo ul { margin: 0; padding: 0; list-style: none; background: url(../images/topinfo.gif) no-repeat 0 0; padding-left: 33px; line-height: 25px; height: 25px; }
+			#top #topinfo li { float: left; padding: 0 8px; }
+			#top 	#topinfo .sitehomelink { background: url(../images/topinfo_itemline.gif) no-repeat left bottom; padding-left: 10px; }
+			#top	#topinfo .logout { background: url(icon_logout.gif) no-repeat 0 7px; padding-left: 14px; }
+
+	#top #topmenu { position: absolute; left: 200px; top: 60px; }
+	#top	#topmenu ul { margin: 0; padding: 0; list-style: none; }
+	#top		#topmenu li { float: left; margin-right: 3px; }
+	#top			#topmenu a { float: left; background: #D9E7FF; color: #6774A8; line-height: 35px; padding: 0 10px; }
+	#top				#topmenu a.current { background: #395E9F; color: #FFF; }
+
+.navi_list{width:500px; height:28px;}
+.navi_list ul{margin:0; padding:0; list-style:none;}
+.navi_list li{width:80px; height:28px; margin-right:4px; background:url(../images/admin_navi_off.jpg) no-repeat; line-height:25px; font-size:12px; font-family:"宋体"; color:#666464; font-weight:bold; float:left; text-align:center; }
+.navi_list li.on{width:80px; height:28px; margin-right:4px; background:url(../images/admin_navi_on.jpg) no-repeat; line-height:25px; font-size:12px; font-family:"宋体"; color:#ffffff; font-weight:bold; float:left; text-align:center; }
+.navi_list li a:link {display:block; line-height:25px; font-size:12px; color:#666464;text-decoration: none; font-family: "宋体";}
+.navi_list li a:hover {display:block;line-height:25px; font-size:12px; color:#ffffff; text-decoration: none; font-family: "宋体";  background:url(../images/admin_navi_on.jpg) no-repeat;} 
+.navi_list li a:visited {display:block; line-height:25px; font-size:12px; color:#666464; text-decoration: none; font-family: "宋体"; }
+.navi_list li a:active { display:block;line-height:25px; font-size:12px; color:#ffffff; text-decoration: none; font-family: "宋体"; background:url(../images/admin_navi_on.jpg) no-repeat;}
+#center{width:1200px; margin:0 auto;}
+#left{width:172px; height:1071px; overflow-x:auto; overflow-y: auto; float:left; scrollbar-face-color: #c7c7c7; scrollbar-shadow-color: #cdcdcd; scrollbar-highlight-color: #FFFFFF; scrollbar-3dlight-color: #c7c7c7; scrollbar-darkshadow-color:#474747; scrollbar-track-color: #ebebeb; scrollbar-arrow-color: #474747; padding:9px 0 0 8px; o}
+#right{ width:970px; height:1080px; border-bottom:1px #adadad solid; padding:0 25px; float:right; background:#ffffff; overflow:hidden;}
+
+
+
+.kuang {
+	font-family: "宋体";
+	font-size: 14px;
+	font-style: normal;
+	color: #666666;
+	height:15px;
+    line-height:15px;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+.kuang01 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-style: normal;
+	color: #666666;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #a1a1a1;
+}
+
+.btn_list{width:970px; height:22px;}
+.btn_list ul{margin:0; padding:0; list-style:none;}
+.btn_list li{width:100px; height:20px; line-height:20px; text-align:center; color:#000000; font-size:12px; border-top:1px solid #d8d8d8; border-left:1px solid #d8d8d8;  border-bottom:1px solid #bfbfbf; border-right:1px solid #bfbfbf; float:left; margin-right:6px; background:#fcfcfc;}
+.btn_list li a:link {display:block; line-height:20px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体";}
+.btn_list li a:hover {display:block;line-height:20px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体";  } 
+.btn_list li a:visited {display:block; line-height:20px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体"; }
+.btn_list li a:active { display:block; line-height:20px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体"; }
+
+
+.btn_list01{width:950px; height:20px; padding-left:20px;}
+.btn_list01 ul{margin:0; padding:0; list-style:none;}
+.btn_list01 li{width:34px; height:18px; line-height:18px; text-align:center; color:#000000; font-size:12px;    border-bottom:1px solid #acacac; border-right:1px solid #acacac; float:left; margin-right:6px; background:#ffedef;}
+.btn_list01 li a:link {display:block; line-height:18px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体";}
+.btn_list01 li a:hover {display:block;line-height:18px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体";  } 
+.btn_list01 li a:visited {display:block; line-height:18px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体"; }
+.btn_list01 li a:active { display:block; line-height:18px; text-align:center; color:#000000; text-decoration: none; font-family: "宋体"; }
+
+.left_navi{width:148px; margin:0 auto 10px 0; background:url(../images/admin_left_navibg.jpg) top no-repeat #ffffff;}
+.left_navi ul{width:136px; padding-left:12px; margin:0; list-style:none;}
+.left_navi li{width:124px; padding-left:12px; background:url(../images/admin_icon_list.jpg) left center no-repeat; text-align:left; line-height:20px; font-family: "宋体"; color:#474747; margin:3px 0; overflow:hidden;}
+.left_navi li.tit{width:92px; padding-left:30px; background:none; text-align:left; line-height:25px; font-family: "宋体"; color:#6c6c6c; height:25px; font-weight:bold;   margin:3px 0; overflow:hidden;}
+.left_navi li a:link {display:block; line-height:20px; color:#474747; text-decoration: none; font-family: "宋体";}
+.left_navi li a:hover {display:block;line-height:20px;   color:#474747; text-decoration: none; font-family: "宋体";  } 
+.left_navi li a:visited {display:block; line-height:20px;  color:#474747; text-decoration: none; font-family: "宋体"; }
+.left_navi li a:active { display:block; line-height:20px;  color:#474747; text-decoration: none; font-family: "宋体"; }
+
+
+.left_navi li.list{width:106px; padding-left:30px; background:url(../images/admin_icon_list01.gif) left center no-repeat; text-align:left; line-height:20px; font-family: "宋体"; color:#474747; margin:3px 0; overflow:hidden;}
+
+/*--------------update:llpeng------------------*/
