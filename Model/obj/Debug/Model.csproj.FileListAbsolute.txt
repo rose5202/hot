@@ -1,0 +1,5 @@
+E:\Item\project\dapairemai\Hot\Model\bin\Debug\Model.dll
+E:\Item\project\dapairemai\Hot\Model\bin\Debug\Model.pdb
+E:\Item\project\dapairemai\Hot\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\Item\project\dapairemai\Hot\Model\obj\Debug\Model.dll
+E:\Item\project\dapairemai\Hot\Model\obj\Debug\Model.pdb
